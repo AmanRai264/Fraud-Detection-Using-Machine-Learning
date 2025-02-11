@@ -38,3 +38,35 @@ Since fraud detection is an imbalanced classification problem, we use:
 - **F1-score** - A balance between precision and recall.
 - **AUC-PR (Area Under Precision-Recall Curve)** - The best metric for fraud detection models.
 
+## Dependencies
+- Python 3.x
+- `pandas`, `numpy`, `matplotlib`, `seaborn`
+- `scikit-learn`, `xgboost`, `imbalanced-learn`
+
+## Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/AmanRai264/fraud-detection.git
+   cd fraud-detection
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the preprocessing and model training scripts:
+   ```sh
+   python train_model.py
+   ```
+
+## Results
+The model's performance is evaluated using precision, recall, F1-score, and AUC-PR to ensure accurate fraud detection. The best-performing model is selected based on these metrics.
+
+## Future Improvements
+- Implement deep learning techniques for fraud detection.
+- Experiment with additional anomaly detection algorithms.
+- Deploy the model using Flask or FastAPI for real-time fraud detection.
+
+## Author
+**Aman Rai** - Aspiring Data Analyst | Machine Learning Enthusiast
+
+
