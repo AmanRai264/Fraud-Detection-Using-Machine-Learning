@@ -25,3 +25,16 @@ This project focuses on detecting fraudulent transactions using machine learning
   - **Undersampling**: Reduce the number of non-fraud cases.
   - **Oversampling**: Generate synthetic fraud cases using SMOTE.
 
+### 5️⃣ Model Selection & Training
+Train multiple machine learning models and compare performance:
+- **Logistic Regression** - A simple and interpretable model.
+- **Random Forest** - Works well with imbalanced data.
+- **XGBoost** - Highly effective for fraud detection.
+- **Anomaly Detection Models** - Like Isolation Forest for identifying outliers.
+
+### 6️⃣ Model Evaluation
+Since fraud detection is an imbalanced classification problem, we use:
+- **Precision & Recall** - To minimize false negatives and detect fraud accurately.
+- **F1-score** - A balance between precision and recall.
+- **AUC-PR (Area Under Precision-Recall Curve)** - The best metric for fraud detection models.
+
