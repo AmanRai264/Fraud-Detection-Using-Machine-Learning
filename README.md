@@ -64,7 +64,6 @@ The model's performance is evaluated using precision, recall, F1-score, and AUC-
 ## Future Improvements
 - Implement deep learning techniques for fraud detection.
 - Experiment with additional anomaly detection algorithms.
-- Deploy the model using Flask or FastAPI for real-time fraud detection.
 
 ## Author
 **Aman Rai** - Aspiring Data Analyst | Machine Learning Enthusiast
